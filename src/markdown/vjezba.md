@@ -14,7 +14,7 @@ _Italic_
 
 [link](http://google.com "Hover effect")
 
-![Slika 1](C:\Users\38267\Desktop\saaanja\pictures\dc26fb7ea90825cf51fd9ee8501691c2.jpg)
+![Slika 1](image.png)
 
 1.first
 

@@ -11,6 +11,6 @@ public class MathCalculations {
         System.out.println(Math.exp(a));
         System.out.println(Math.max(a,b));
         System.out.println(Math.min(a,b));
-        System.out.println(Math.pow((Math.pow(2,c)-2),c));
+        System.out.println(Math.pow(2,c));
     }
 }

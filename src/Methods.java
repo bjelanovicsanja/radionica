@@ -1,13 +1,21 @@
 public class Methods {
     public static void main(String[] args) {
         printName();
-        String name_surname= printNameAndSurname("Sanja Bjelanovic");
-        System.out.println("My name and surname is " + name_surname);
+
+        String nameSurname= printNameAndSurname("Sanja Bjelanovic");
+
+        System.out.println("My name and surname is " + nameSurname);
+
         int sum = calculate(3, 5);
+
         System.out.println("Suma je " + sum);
+
         int suma = calculate(1,2,3);
+
         System.out.println("Suma tri broja je " + suma);
+
         Methods method = new Methods();
+
         method.greetMe();
     }
     public static void printName() {

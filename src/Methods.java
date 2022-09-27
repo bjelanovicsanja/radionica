@@ -1,6 +1,8 @@
 public class Methods {
     public static void main(String[] args) {
         printName();
+        String name_surname= printNameAndSurname("Sanja Bjelanovic");
+        System.out.println("My name and surname is " + name_surname);
         int sum = calculate(3, 5);
         System.out.println("Suma je " + sum);
         int suma = calculate(1,2,3);
@@ -8,12 +10,10 @@ public class Methods {
         Methods method = new Methods();
         method.greetMe();
     }
-
     public static void printName() {
         System.out.println("Sanja");
     }
-
-    public static String printOneName(String n) {
+    public static String printNameAndSurname(String n) {
         System.out.println(n);
         return n;
     }
@@ -28,5 +28,4 @@ public class Methods {
     public void greetMe(){
         System.out.println("Hello");
     }
-
 }

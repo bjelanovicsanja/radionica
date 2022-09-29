@@ -4,7 +4,6 @@ public class EmployeeTest {
         staff[0] = new Employee("Sanja", 450);
         staff[1] = new Employee("Miljan", 450);
         staff[2] = new Employee("Nikolina", 450);
-
         for (Employee e : staff) {
             e.raiseSalary(5);
         }

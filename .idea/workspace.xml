@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9de86305-11d2-48ce-ad3b-3dfd8e95bb1d" name="Changes" comment="remove space from code">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -35,7 +45,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

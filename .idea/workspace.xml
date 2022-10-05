@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9de86305-11d2-48ce-ad3b-3dfd8e95bb1d" name="Changes" comment="remove space from code" />
+    <list default="true" id="9de86305-11d2-48ce-ad3b-3dfd8e95bb1d" name="Changes" comment="add untracked">
+      <change afterPath="$PROJECT_DIR$/src/Amplitudo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GregorianExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664184456568</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add untracked">
+      <created>1664442552622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664442552622</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,6 +79,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove space from code" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove space from code" />
+    <MESSAGE value="add untracked" />
+    <option name="LAST_COMMIT_MESSAGE" value="add untracked" />
   </component>
 </project>

@@ -9,7 +9,7 @@ public class TestStudent {
             System.out.println("Data of each student is " + s.getStudentName() + " " + s.getStudentAge() + " " + s.getStudentSemester() + " " + s.getStudentGpa());
         }
 
-        double gpaAverage = ((students[0].getStudentGpa() + students[1].getStudentGpa() + students[2].getStudentGpa()) / 3);
+        double gpaAverage = ((students[0].getStudentGpa() + students[1].getStudentGpa() + students[2].getStudentGpa()) / students.length);
         System.out.println("Average is: " + gpaAverage);
     }
 }

@@ -1,45 +1,45 @@
 public class Student {
-    private String StudentName;
-    private int StudentAge;
-    private int StudentSemester;
-    private static double StudentGpa;
+    private String studentName;
+    private int studentAge;
+    private int studentSemester;
+    private static double studentGpa;
 
     public String getStudentName() {
-        return StudentName;
+        return studentName;
     }
 
     public void setStudentName(String studentName) {
-        StudentName = studentName;
+        studentName = studentName;
     }
 
     public int getStudentAge() {
-        return StudentAge;
+        return studentAge;
     }
 
     public void setStudentAge(int studentAge) {
-        StudentAge = studentAge;
+        studentAge = studentAge;
     }
 
     public int getStudentSemester() {
-        return StudentSemester;
+        return studentSemester;
     }
 
     public void setStudentSemester(int studentSemester) {
-        StudentSemester = studentSemester;
+        studentSemester = studentSemester;
     }
 
     public static double getStudentGpa() {
-        return StudentGpa;
+        return studentGpa;
     }
 
     public void setStudentGpa(double studentGpa) {
-        StudentGpa = studentGpa;
+        studentGpa = studentGpa;
     }
 
     public Student(String name, int age, int semesterNo, double GPA) {
-        StudentName = name;
-        StudentAge = age;
-        StudentSemester = semesterNo;
-        StudentGpa = GPA;
+        studentName = name;
+        studentAge = age;
+        studentSemester = semesterNo;
+        studentGpa = GPA;
     }
 }

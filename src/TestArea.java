@@ -6,6 +6,5 @@ public class TestArea {
         double squareArea = s.areaCalculation(s.getSide());
         double areaRectangle = r.areaCalculation(r.getWidth(), r.getLength());
         System.out.println("Area for Square is: " + squareArea + " " + "and area for Rectangle is: " + areaRectangle);
-
     }
 }

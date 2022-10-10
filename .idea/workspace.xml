@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9de86305-11d2-48ce-ad3b-3dfd8e95bb1d" name="Changes" comment="remove space from code">
+      <change afterPath="$PROJECT_DIR$/src/CentralTraffic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Conversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EuropeTraffic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MNETraffic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestStudent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -25,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="methods" />
+        <entry key="$PROJECT_DIR$" value="class-practise" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,5 +90,8 @@
     <MESSAGE value="remove space from code" />
     <MESSAGE value="add untracked" />
     <option name="LAST_COMMIT_MESSAGE" value="add untracked" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/exercises$Conversion.ic" NAME="Conversion Coverage Results" MODIFIED="1665396339633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -23,7 +23,7 @@ public class MethodsTest {
     public static void vowelConsonant() {
         System.out.println("Enter a character: ");
         char ch = scanner.next().charAt(0);
-        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
             System.out.println("Character is an vowel");
         } else {
             System.out.println("Character is a consonant");
@@ -36,7 +36,7 @@ public class MethodsTest {
         price = scanner.nextInt();
         System.out.println("Enter discount of product: ");
         discount = scanner.nextInt();
-        finalPrice = (price * discount) / 100;
+        finalPrice = price - (price * discount) / 100;
         System.out.println("Final price of product with discount is: " + finalPrice);
     }
 
@@ -68,16 +68,15 @@ public class MethodsTest {
         System.out.println("Sum of digits is: " + sum);
     }
 
-    public static String numberOfVowels(String word) {
+    public static int numberOfVowels(String word) {
         int count = 0;
-        word = word.toLowerCase();
         for (int i = 0; i < word.length(); i++) {
-            if (word.charAt(i) == 'a' || word.charAt(i) == 'e' || word.charAt(i) == 'i' || word.charAt(i) == 'o' || word.charAt(i) == 'u') {
+            if (word.charAt(i) == 'a' || word.charAt(i) == 'e' || word.charAt(i) == 'i' || word.charAt(i) == 'o' || word.charAt(i) == 'u' || word.charAt(i) == 'A' || word.charAt(i) == 'E' || word.charAt(i) == 'I' || word.charAt(i) == 'O' || word.charAt(i) == 'U') {
                 count++;
             }
         }
-        System.out.println("Sum of vowels is: " + count);
-        return word;
+        System.out.println("Number of vowels is: " + count);
+        return count;
     }
 
     public static void reverseNumber() {

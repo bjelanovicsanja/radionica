@@ -6,27 +6,24 @@ public class StringsPractise {
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        dateTime();
-        privateInfo();
-        trimString();
-        countWords();
+        returnIndex();
+//        dateTime();
+//        privateInfo();
+//        trimString();
+//        countWords();
     }
 
-//    public static int returnIndex(String[] str, int index) {
-//        if(str == null){
-//            return -1;
-//        }
-//        int len = str.length;
-//        int i = 0;
-//        while(i < len){
-//            if(str[i] == index){
-//                return i;
-//            }else{
-//                return i+1;
-//            }
-//        }
-//        return -1;
-//    }
+    public static int returnIndex() {
+        String str = "C, C++, Java, C#, Kotlin";
+        char ch = ',';
+
+        int index = str.indexOf(ch);
+        while (index != -1) {
+            System.out.println(index);
+            index = str.indexOf(ch, index + 1);
+        }
+        return index;
+    }
 
     public static void dateTime() {
         String pattern = "MMMM dd,yyyy";

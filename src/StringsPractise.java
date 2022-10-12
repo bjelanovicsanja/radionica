@@ -6,24 +6,15 @@ public class StringsPractise {
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        returnIndex();
-//        dateTime();
-//        privateInfo();
-//        trimString();
-//        countWords();
+        dateTime();
+        doesStringStartWith("Pocetak provjera", "Sanja");
+        doesStringEndWith("Zavrsetak stringa", "stringa");
+        privateInfo();
+        trimString();
+        countWords();
+
     }
 
-    public static int returnIndex() {
-        String str = "C, C++, Java, C#, Kotlin";
-        char ch = ',';
-
-        int index = str.indexOf(ch);
-        while (index != -1) {
-            System.out.println(index);
-            index = str.indexOf(ch, index + 1);
-        }
-        return index;
-    }
 
     public static void dateTime() {
         String pattern = "MMMM dd,yyyy";
@@ -34,12 +25,20 @@ public class StringsPractise {
         System.out.println(date + "\n" + formatter.format(time));
     }
 
-    public static void doesStringStartWith() {
-
+    public static boolean doesStringStartWith(String actual, String word) {
+        if (actual.startsWith(word)) {
+            return true;
+        } else {
+           return false;
+        }
     }
 
-    public static void doesStringEndWith() {
-
+    public static boolean doesStringEndWith(String actual, String word) {
+        if (actual.endsWith(word)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public static void privateInfo() {

@@ -1,10 +1,8 @@
 
-import java.util.Scanner;
 import java.util.Arrays;
 
 
 public class ArraysPractise {
-    public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         int[] arr = new int[]{2, 4, 5, 7, 8, 89};

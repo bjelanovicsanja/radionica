@@ -6,6 +6,7 @@ public class StringsPractise {
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+        returnChar("Bagolovci", 2);
         dateTime();
         doesStringStartWith("Pocetak provjera", "Sanja");
         doesStringEndWith("Zavrsetak stringa", "stringa");
@@ -13,8 +14,13 @@ public class StringsPractise {
         trimString();
         countWords();
 
+
     }
 
+    public static void returnChar(String s, int x) {
+        char aChar = s.charAt(x);
+        System.out.println(aChar);
+    }
 
     public static void dateTime() {
         String pattern = "MMMM dd,yyyy";
@@ -26,19 +32,27 @@ public class StringsPractise {
     }
 
     public static boolean doesStringStartWith(String actual, String word) {
+        boolean test;
         if (actual.startsWith(word)) {
-            return true;
+            System.out.println("String starts with this string.");
+            test = true;
         } else {
-           return false;
+            System.out.println("String does not starts with this string.");
+            test = false;
         }
+        return test;
     }
 
     public static boolean doesStringEndWith(String actual, String word) {
+        boolean test;
         if (actual.endsWith(word)) {
-            return true;
+            System.out.println("String ends with this string.");
+            test = true;
         } else {
-            return false;
+            System.out.println("String does not end with this string.");
+            test = false;
         }
+        return test;
     }
 
     public static void privateInfo() {
